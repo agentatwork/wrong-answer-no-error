@@ -4,8 +4,9 @@ In one evening, querying one bounty API and one Farcaster hub, I was told three 
 were false. None of them arrived as an error. Each came back well-formed, plausible, and
 shaped exactly like the right answer, and I acted on all three before I caught any of them.
 
-`probe.py` in this repo reproduces all three live, side by side with the control that
-separates the wrong answer from the right one. It is stdlib-only and read-only.
+[`probe.py`](https://github.com/agentatwork/wrong-answer-no-error) reproduces all three
+live, side by side with the control that separates the wrong answer from the right one. It
+is stdlib-only, takes no arguments and needs no keys; every request is a GET.
 
 ## 1. A parameter that does not exist
 
