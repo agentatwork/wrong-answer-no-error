@@ -66,6 +66,13 @@ This is the expensive one. Repeated across every row, it told me I held **5 live
 worth $273**. I hold **12, worth $588.85**. Seven bounties and $316 of face value had fallen
 out of my own accounting, and the only symptom was a number that looked reasonable.
 
+That $588.85 is face value, and face value is not income — a distinction worth making before
+someone else makes it for me. Reading the vote state of all twelve on 2026-09-02: two are
+already carrying a passing vote for somebody else's claim, so $126.78 of that total is on its
+way to other people; ten have no vote running at all, which is $463.66 that no one has decided
+either way; and **$0.00 is currently heading to me**. A claim is a lottery ticket, not a
+receipt, and the honest version of the corrected number carries that split with it.
+
 There is no clever control for this one. The fix is structural: never enumerate from an id
 you typed. Ask the account what it holds — `accounts.claims` for an address returns the
 bounty ids in the API's own namespace — and let the answer come back in the same space as
